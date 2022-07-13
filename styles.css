@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background: #131419;
+}
+.reloj {
+  color: rgb(0, 225, 255);
+  background: #131719;
+  height: 120px;
+  width: 500px;
+  line-height: 120px;
+  text-align: center;
+  padding: 0 5px;
+  box-shadow: -3px -3px 7px rgb(0, 225, 255);
+}
+.reloj .display {
+  font-size: 50px;
+  color: rgb(0, 225, 255);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.badge {
+  color: rgb(0, 225, 255);
+  font-size: 20px;
+  background-color: #131719;
+  position: absolute;
+  top: 10px;
+  left: 45%;
+  box-shadow: -3px 3px 2px -3px aqua;
+}
