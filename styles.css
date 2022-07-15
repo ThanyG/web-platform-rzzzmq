@@ -9,6 +9,7 @@ body {
   background: #131419;
 }
 .reloj {
+  font-family: "SevenSegments", Garamond, monospace;
   color: rgb(0, 225, 255);
   background: #131719;
   height: 120px;
